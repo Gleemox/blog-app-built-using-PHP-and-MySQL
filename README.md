@@ -1,1 +1,5 @@
-# blog-app-built-using-PHP-and-MySQL
+# Blog application built using PHP and MySQL
+
+## Description
+
+## Features
