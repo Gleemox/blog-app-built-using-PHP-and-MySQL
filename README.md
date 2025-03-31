@@ -4,5 +4,9 @@
 
 ## Features
 ### Admin
+- Add and manage posts.
+- Add and manage users.
+- Add and manage categories.
+
 
 ### User
