@@ -4,5 +4,14 @@
 
 ## Features
 ### Admin
+- Add and manage posts.
+- Add and manage users.
+- Add and manage categories.
+
 
 ### User
+- Add and manage posts.
+
+## Tools
+- [iconscout.com](https://www.iconscout.com)
+- [font.google.com](https://fonts.google.com/)
