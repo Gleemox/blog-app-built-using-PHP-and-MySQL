@@ -31,12 +31,72 @@
 /* ====================    GENERAL   ========================= */
 
 * {
- /* margin: 0; /* every element has a margin of 0 */
-/*  padding: 0; /* every element has a padding of 0 */
+  margin: 0; /* every element has a margin of 0 */
+  padding: 0; /* every element has a padding of 0 */
   outline: 0;
   border: 0;
   appearance: 0;
   list-style: none; /* no bullets points next to unordered list items */ 
   text-decoration: none; /* remove underline from list items */
  /* box-sizing: border-box; /* this avoid overflow issues */
+}
+
+body { /* background and text color */
+  font-family: 'Montserrat', sans-serif; /* Google Font */
+  line-height: 1.6;
+  color: var(--color-gray-200); /* text color dark blue */
+  overflow-x: hidden;
+  background: var(--color-bg);
+  font-size: 0.9rem;
+}
+
+.container { /* most sections of the page */
+  width: var(--container-width-lg); /* width on large devices */
+  max-width: 1800px; /* max width on larger screens */
+  margin-inline: auto; /* or margin: 0 auto;*/
+}
+
+/* there are sections on all pages, featured post (image + paragraph), manage posts page is put in a section, ... */
+.section { /* the first post is a featured section, others below are put in another section */
+  margin-top: 3rem; 
+  width: 100vw; /* it spands on whole screen */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-white);
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem 0; /* top+bottom left+right */
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 0.8rem 0 0.5rem; /* top left+right bottom */
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+a { /* every link has a white color and a transition*/
+  color: var(--color-white);
+  transition: var(--transition);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
