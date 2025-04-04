@@ -14,6 +14,9 @@ An Admin can do all of this and more. He can (add/edit/delete) users (admin/auth
 ### User
 - Add and manage posts.
 
+## Usage
+- Access the application through your browser at
+
 ## Tools
 - [iconscout.com](https://www.iconscout.com)
 - [font.google.com](https://fonts.google.com/)
