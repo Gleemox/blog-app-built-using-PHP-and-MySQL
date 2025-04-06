@@ -5,6 +5,7 @@ This is a responsive CRUD blog website built using PHP and MySQL. It allows user
 An Admin can do all of this and more. He can (add/edit/delete) users (admin/author) and manage (add/edit/delete) categories.
 
 ## Installation
+- Clone the repository: `git clone https://github.com/Gleemox/blog-app-built-using-PHP-and-MySQL.git`
 
 ## Features
 ### Admin
