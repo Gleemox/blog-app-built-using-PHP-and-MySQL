@@ -23,3 +23,4 @@ An Admin can do all of this and more. He can (add/edit/delete) users (admin/auth
 ## Tools
 - [iconscout.com](https://www.iconscout.com)
 - [font.google.com](https://fonts.google.com/)
+- [XAMPP](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.0.30/xampp-windows-x64-8.0.30-0-VS16-installer.exe)
