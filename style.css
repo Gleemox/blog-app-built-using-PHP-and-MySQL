@@ -100,3 +100,47 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+/* ====================    NAV   ========================= */
+
+nav { /* navigation bar */
+  background: var(--color-primary);
+  width: 100vw; /* spands on whole screen */
+  height: 4.5rem;
+  position: fixed; /* always fixed on the screen */
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+nav button {
+  display: none;
+}
+
+
+/* nav container contians the logo on left and the profile picture with its menu on right */
+.nav__container { /* profile picture with the buttons below */
+  height: 100%; /* 100% of its height which is 4.5 rem*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* space between the profile picture and logo */
+}
+
+.avatar { /* profile picture */
+  width: 2.5rem;
+  height: 2.5rem; /* or aspect-ratio: 1/1; /* height of profile picture equals to its width, if the width changes to 5 the height also changes to 5 */
+  border-radius: 50%; /* circle */
+  overflow: hidden;
+  border: 0.3rem solid var(--color-bg); /* border of circle in black*/
+}
+
+.nav__logo { /* logo text on left */
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.nav__items { /* ul list */
+  display: flex;
+  align-items: center;
+  gap: 4rem; /* space between ul list items */
+}
