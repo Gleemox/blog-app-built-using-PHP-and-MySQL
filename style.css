@@ -144,3 +144,40 @@ nav button {
   align-items: center;
   gap: 4rem; /* space between ul list items */
 }
+
+
+/* profile picture and menu on right */
+.nav__profile {
+  position: relative; /* because the 2 menu items are positioned absolute */
+  cursor: pointer; /* cliquable */
+}
+
+.nav__profile ul { /* 2 itemps (links) of the menu on the right */
+  position: absolute;
+  top: 125%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.4);
+  background: var(--color-gray-900); /* background color of the menu */
+  visibility: hidden; /* initially before we hover on profile picture */
+  opacity: 0; /* initially before we hover on profile picture */
+  transition: var(--transition);
+}
+
+/* show nav ul when nav profile is hovered */
+.nav__profile:hover > ul { /* the menu on the right shows when we hover on the profile picture */
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav__profile ul li a { /* links which are inside menu items on the right */
+  padding: 1rem;
+  background: var(--color-gray-900);
+  display: block;
+}
+
+.nav__profile ul li:last-child a { /* the link of the last child of the list item */
+  background: var(--color-red);
+  color: var(--color-bg);
+}
