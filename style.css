@@ -181,3 +181,20 @@ nav button {
   background: var(--color-red);
   color: var(--color-bg);
 }
+
+/* ====================    CATEGORY BUTTON (ex. Art found above featured post) ========================= */
+
+.category__button {
+  background: var(--color-primary-light);
+  color: var(--color-primary); /* text color */*
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: var(--card-border-radius-2); /* 0.5rem check above */
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.category__button:hover { /* when we hover on the button */
+  color: var(--color-white);
+}
